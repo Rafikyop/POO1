@@ -1,10 +1,12 @@
 
 public class Circulo {
 	
+	//Atributos
 	private float radio;
 	private float perimeter;
 	private float area;
 	
+	//Metodos
 	public void calcularArea() {
 		area = (float) (Math.PI * this.radio * this.radio);
 	}
@@ -13,6 +15,7 @@ public class Circulo {
 		perimeter = (float) (Math.PI * 2 * this.radio);
 	}
 
+	//Getters and Setters
 	public float getRadio() {
 		return radio;
 	}
