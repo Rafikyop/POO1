@@ -1,11 +1,41 @@
 
 public class Circulo {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Prueba Git en Eclipse");
-			
-		String nombre = "Rafiky";
-			
+	
+	private float radio;
+	private float perimeter;
+	private float area;
+	
+	public void calcularArea() {
+		area = (float) (Math.PI * radio * radio);
+	}
+	
+	public void calcularPerimeter() {
+		perimeter = (float) (Math.PI * 2 * radio);
 	}
 
+	public float getRadio() {
+		return radio;
+	}
+
+	public void setRadio(float radio) {
+		this.radio = radio;
+	}
+
+	public float getPerimeter() {
+		return perimeter;
+	}
+
+	public void setPerimeter(float perimeter) {
+		this.perimeter = perimeter;
+	}
+
+	public float getArea() {
+		return area;
+	}
+
+	public void setArea(float area) {
+		this.area = area;
+	}
+	
+	
 }
