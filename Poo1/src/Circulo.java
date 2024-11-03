@@ -6,11 +6,11 @@ public class Circulo {
 	private float area;
 	
 	public void calcularArea() {
-		area = (float) (Math.PI * radio * radio);
+		area = (float) (Math.PI * this.radio * this.radio);
 	}
 	
 	public void calcularPerimeter() {
-		perimeter = (float) (Math.PI * 2 * radio);
+		perimeter = (float) (Math.PI * 2 * this.radio);
 	}
 
 	public float getRadio() {
