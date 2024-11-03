@@ -16,6 +16,7 @@ public class Cuadrado {
 	
 	}
 
+	//Getters and Setters
 	public double getArea() {
 		return area;
 	}
@@ -39,7 +40,5 @@ public class Cuadrado {
 	public void setLado(int lado) {
 		this.lado = lado;
 	}
-	
-	//Getters and Setters
 	
 }
